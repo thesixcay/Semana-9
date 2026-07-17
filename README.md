@@ -109,9 +109,9 @@ Además, Chrome fue configurado para abrir automáticamente:
 http://localhost
 ```
 
-## 📷 Imagen de la configuración de RemoteApp aquí
+<img src="screnshots/remote app.png" width="800" alt="Texto">
 
-## 📷 Imagen de Google Chrome publicado como RemoteApp aquí
+<img src="screnshots/google crhome como remote app.png" width="800" alt="Texto">
 
 ---
 
@@ -190,13 +190,11 @@ Atributo Cisco:
 shell:priv-lvl=1
 ```
 
-## 📷 Imagen del cliente RADIUS aquí
+<img src="screnshots/cliente radius.png" width="800" alt="Texto">
 
-## 📷 Imagen de las Network Policies aquí
+<img src="screnshots/admin.png" width="800" alt="Texto">
 
-## 📷 Imagen de la política Admins aquí
-
-## 📷 Imagen de la política Users aquí
+<img src="screnshots/user.png" width="800" alt="Texto">
 
 ---
 
@@ -268,63 +266,6 @@ Acceso al Router
 ```
 
 ---
-
-# Verificación
-
-Se ejecutaron los siguientes comandos:
-
-```bash
-debug aaa authentication
-
-debug aaa authorization
-
-debug radius
-
-show aaa servers
-
-show aaa sessions
-
-show running-config | include aaa
-```
-
----
-
-## Verificación con admin1
-
-Usuario:
-
-```
-admin1
-```
-
-Resultado esperado:
-
-```
-Privilege Level 15
-```
-
-## 📷 Imagen del login de admin1 aquí
-
----
-
-## Verificación con user1
-
-Usuario:
-
-```
-user1
-```
-
-Resultado esperado:
-
-```
-Privilege Level 1
-```
-
-## 📷 Imagen del login de user1 aquí
-
----
-
 ## Comandos de verificación
 
 Se comprobó el estado del servidor AAA mediante:
@@ -333,7 +274,7 @@ Se comprobó el estado del servidor AAA mediante:
 show aaa servers
 ```
 
-## 📷 Imagen del comando show aaa servers aquí
+<img src="screnshots/show aaa servers.png" width="800" alt="Texto">
 
 También se verificaron las sesiones AAA activas.
 
@@ -341,9 +282,10 @@ También se verificaron las sesiones AAA activas.
 show aaa sessions
 ```
 
-## 📷 Imagen del comando show aaa sessions aquí
+<img src="screnshots/show aaa session.png" width="800" alt="Texto">
 
 ---
+
 
 # Resultados obtenidos
 
@@ -360,8 +302,6 @@ show aaa sessions
 ✔ Router Cisco autenticando usuarios mediante Active Directory.
 
 ✔ Asignación automática de privilegios según el grupo del usuario.
-
-## 📷 Imagen final mostrando todo funcionando aquí
 
 ---
 
