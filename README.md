@@ -20,7 +20,7 @@ Implementación de una infraestructura empresarial utilizando **Windows Server 2
 
 La siguiente topología fue utilizada para implementar el laboratorio.
 
-<img src="screnshots/topologia.png" width="400" alt="Texto">
+<img src="screnshots/topologia.png" width="800" alt="Texto">
 
 ---
 
@@ -70,11 +70,11 @@ También se crearon los usuarios:
 - admin1
 - user1
 
-## 📷 Imagen del servidor promovido a Controlador de Dominio aquí
+<img src="screnshots/controlador de dominio.png" width="800" alt="Texto">
 
-## 📷 Imagen de los grupos creados aquí
+<img src="screnshots/admin1.png" width="800" alt="Texto">
 
-## 📷 Imagen de los usuarios creados aquí
+<img src="screnshots/user1.png" width="800" alt="Texto">
 
 ---
 
@@ -89,7 +89,7 @@ Se creó una página personalizada mostrando:
 - Estado del servicio
 - Información del laboratorio
 
-## 📷 Imagen de la página web funcionando en IIS aquí
+<img src="screnshots/iis.png" width="800" alt="Texto">
 
 ---
 
@@ -132,15 +132,13 @@ Desde este portal los usuarios pueden acceder a:
 - Paint
 - WordPad
 
-## 📷 Imagen del Login de RD Web aquí
+<img src="screnshots/rd web access.png" width="800" alt="Texto">
 
-## 📷 Imagen iniciando sesión aquí
+<img src="screnshots/aplicaciones web access.png" width="800" alt="Texto">
 
-## 📷 Imagen mostrando las aplicaciones disponibles aquí
+<img src="screnshots/advertencia de certificado.png" width="800" alt="Texto">
 
-## 📷 Imagen de la advertencia del certificado aquí
-
-## 📷 Imagen ejecutando una aplicación RemoteApp aquí
+<img src="screnshots/ejecutando remote access.png" width="800" alt="Texto">
 
 ---
 
@@ -375,30 +373,5 @@ show aaa sessions
 - Windows Cliente
 - Conectividad IP entre todos los equipos
 
----
-
-# Video demostrativo
-
-Agregar aquí el enlace del video.
-
-```
-https://drive.google.com/
-```
-
----
-
-# Autor
-
-**Osvaldo Solano**
-
-ITLA – Seguridad Informática
-
-GitHub:
-
-https://github.com/thesixcay
-
----
-
-# Licencia
 
 Este proyecto fue desarrollado con fines educativos para prácticas de infraestructura empresarial, administración de Windows Server y autenticación centralizada mediante RADIUS en PNetLab.
